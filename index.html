@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>PARADIGM SHIFT</title>
+<title>HOLD FIRE</title>
 <style>
   html,body{margin:0;padding:0;background:#101018;height:100%;overflow:hidden;}
   body{display:flex;align-items:center;justify-content:center;font-family:monospace;}
@@ -24,9 +24,11 @@
 <div id="wrap"><canvas id="cv" width="768" height="1008"></canvas></div>
 <script>
 'use strict';
-/* ================= PARADIGM SHIFT v17 =================
-   v17: the collection UI follows the language — in Japanese
-   mode it says 称号 (button, heading, count, NEW banner).
+/* ================= HOLD FIRE v18 =================
+   v18: renamed from PARADIGM SHIFT (too many jam entries
+   would share it) to HOLD FIRE — the order is the answer.
+   "PARADIGM SHIFT" survives inside as the top title and
+   the one-shot result line.
    v4: FIRE is a tap-toggle (no holding a small button while
    dragging), any second finger holds fire, ship rides higher
    above the moving finger and chases it faster.
@@ -776,8 +778,8 @@ function drawTitle(){
   for(var bd=0;bd<7;bd++){ var bh=18+((bd*37)%26); ctx.fillRect(bd*38-4,H-120-bh,34,bh); }
   ctx.textAlign='center';
   ctx.fillStyle='#3cbcfc'; ctx.font='bold 27px monospace';
-  ctx.fillText('PARADIGM',W/2,86);
-  ctx.fillStyle='#f83800'; ctx.fillText('SHIFT',W/2,118);
+  ctx.fillText('HOLD',W/2,86);
+  ctx.fillStyle='#f83800'; ctx.fillText('FIRE',W/2,118);
   ctx.fillStyle='#f8f8f8'; ctx.font='bold 11px monospace';
   ctx.fillText(t('tag'),W/2,152);
   ctx.font='10px monospace'; ctx.fillStyle='#f8d800';
